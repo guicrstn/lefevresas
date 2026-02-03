@@ -10,7 +10,7 @@ export default function Home() {
   const services = [
     {
       icon: Wrench,
-      title: "Toiture neuf et rénovation",
+      title: "Toiture neuve et rénovation",
       description: "Installation et rénovation complète de toitures pour tous types de bâtiments",
     },
     {
