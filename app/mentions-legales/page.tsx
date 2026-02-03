@@ -55,9 +55,9 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">3. Hébergeur du site</h2>
                 <div className="bg-muted rounded-lg p-6">
-                  <p className="mb-2"><strong>Raison sociale :</strong> Vercel Inc.</p>
-                  <p className="mb-2"><strong>Adresse :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis</p>
-                  <p className="mb-0"><strong>Site web :</strong> <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://vercel.com</a></p>
+                  <p className="mb-2"><strong>Raison sociale :</strong> OVH </p>
+                  <p className="mb-2"><strong>Adresse :</strong> 32 RUE KELLERMANN 59100 ROUBAIX</p>
+                  <p className="mb-0"><strong>Site web :</strong> <a href="https://www.ovhcloud.com/fr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://vercel.com</a></p>
                 </div>
               </div>
 
