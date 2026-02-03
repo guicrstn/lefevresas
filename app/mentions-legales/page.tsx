@@ -46,8 +46,9 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">2. Directeur de la publication</h2>
                 <div className="bg-muted rounded-lg p-6">
-                  <p className="mb-2"><strong>Nom :</strong> Baptiste LEFEVRE</p>
-                  <p className="mb-0"><strong>Qualité :</strong> Président de la SAS LEFEVRE</p>
+                  <p className="mb-2"><strong>Nom :</strong> Guillaume CRISTINI </p>
+                  <p className="mb-0"><strong>Qualité :</strong> Architecte site web</p>
+                  <p className="mb-0"><strong>Site web :</strong> <a href="https:https://gcinformatik.fr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://gcinformatik.fr/</a></p>
                 </div>
               </div>
 
