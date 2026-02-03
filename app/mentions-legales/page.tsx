@@ -57,7 +57,7 @@ export default function MentionsLegalesPage() {
                 <div className="bg-muted rounded-lg p-6">
                   <p className="mb-2"><strong>Raison sociale :</strong> OVH </p>
                   <p className="mb-2"><strong>Adresse :</strong> 32 RUE KELLERMANN 59100 ROUBAIX</p>
-                  <p className="mb-0"><strong>Site web :</strong> <a href="https://www.ovhcloud.com/fr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://vercel.com</a></p>
+                  <p className="mb-0"><strong>Site web :</strong> <a href="https://www.ovhcloud.com/fr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://www.ovhcloud.com/fr/</a></p>
                 </div>
               </div>
 
