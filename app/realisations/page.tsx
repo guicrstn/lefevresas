@@ -332,6 +332,20 @@ const beforeAfterProjects = [
     beforeImage: "/realisations/projet4-avant.jpg",
     afterImage: "/realisations/projet4-apres.jpg",
   },
+  {
+    id: 5,
+    title: "Habillage d'un toit",
+    description: "Rénovation du toit complet",
+    beforeImage: "/realisations/projet5-avant.jpg",
+    afterImage: "/realisations/projet5-apres.jpg",
+  },
+  {
+    id: 6,
+    title: "Réalisation d'une tableau",
+    description: "Création complète d'une table (avant/après)",
+    beforeImage: "/realisations/projet6-avant.jpg",
+    afterImage: "/realisations/projet6-apres.jpg",
+  },
 ]
 
 const videoProjects = [
