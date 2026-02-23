@@ -343,8 +343,8 @@ const beforeAfterProjects = [
     id: 6,
     title: "Réalisation d'une tableau",
     description: "Création complète d'une table (avant/après)",
-    beforeImage: "/realisations/projet6-avant.jpg",
-    afterImage: "/realisations/projet6-apres.jpg",
+    beforeImage: "/realisations/projet6-avant.jpeg",
+    afterImage: "/realisations/projet6-apres.jpeg",
   },
 ]
 
