@@ -30,10 +30,7 @@ export default function PolitiqueConfidentialitePage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">1. Introduction</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  La SAS LEFEVRE, soucieuse des droits des individus, notamment au regard des traitements automatisés, 
-                  et dans une volonté de transparence avec ses clients, a mis en place une politique reprenant l'ensemble 
-                  de ces traitements, des finalités poursuivies par ces derniers ainsi que des moyens d'actions à la 
-                  disposition des individus afin qu'ils puissent au mieux exercer leurs droits.
+                  {"La SAS LEFEVRE, soucieuse des droits des individus, notamment au regard des traitements automatisés, et dans une volonté de transparence avec ses clients, a mis en place une politique reprenant l'ensemble de ces traitements, des finalités poursuivies par ces derniers ainsi que des moyens d'actions à la disposition des individus afin qu'ils puissent au mieux exercer leurs droits."}
                 </p>
                 <p className="text-muted-foreground leading-relaxed mt-4">
                   Pour toute information complémentaire sur la protection des données personnelles, nous vous invitons 
@@ -59,8 +56,7 @@ export default function PolitiqueConfidentialitePage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">3. Données personnelles collectées</h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Dans le cadre de l'utilisation de notre site web et notamment de notre formulaire de contact, 
-                  nous sommes amenés à collecter les données personnelles suivantes :
+                  {"Dans le cadre de l'utilisation de notre site web et notamment de notre formulaire de contact, nous sommes amenés à collecter les données personnelles suivantes :"}
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
                   <li>Nom et prénom</li>
@@ -87,9 +83,7 @@ export default function PolitiqueConfidentialitePage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">5. Base légale du traitement</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Le traitement de vos données personnelles est fondé sur votre consentement, que vous exprimez 
-                  en remplissant et en soumettant le formulaire de contact, ainsi que sur l'exécution de mesures 
-                  précontractuelles prises à votre demande.
+                  {"Le traitement de vos données personnelles est fondé sur votre consentement, que vous exprimez en remplissant et en soumettant le formulaire de contact, ainsi que sur l'exécution de mesures précontractuelles prises à votre demande."}
                 </p>
               </div>
 
@@ -120,12 +114,12 @@ export default function PolitiqueConfidentialitePage() {
                   et Libertés, vous disposez des droits suivants :
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2 ml-4">
-                  <li><strong>Droit d'accès :</strong> obtenir la confirmation que des données vous concernant sont traitées et en obtenir une copie</li>
+                  <li><strong>{"Droit d'accès :"}</strong> obtenir la confirmation que des données vous concernant sont traitées et en obtenir une copie</li>
                   <li><strong>Droit de rectification :</strong> demander la correction de données inexactes ou incomplètes</li>
-                  <li><strong>Droit à l'effacement :</strong> demander la suppression de vos données dans les conditions prévues par la loi</li>
+                  <li><strong>{"Droit à l'effacement :"}</strong> demander la suppression de vos données dans les conditions prévues par la loi</li>
                   <li><strong>Droit à la limitation :</strong> demander la limitation du traitement de vos données</li>
                   <li><strong>Droit à la portabilité :</strong> recevoir vos données dans un format structuré et couramment utilisé</li>
-                  <li><strong>Droit d'opposition :</strong> vous opposer au traitement de vos données pour des motifs légitimes</li>
+                  <li><strong>{"Droit d'opposition :"}</strong> vous opposer au traitement de vos données pour des motifs légitimes</li>
                 </ul>
                 <p className="text-muted-foreground leading-relaxed mt-4">
                   Pour exercer ces droits, vous pouvez nous contacter par téléphone au <strong>06 51 43 64 95</strong> ou 
@@ -137,9 +131,7 @@ export default function PolitiqueConfidentialitePage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">9. Droit de réclamation</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  Si vous estimez que le traitement de vos données personnelles constitue une violation du RGPD, 
-                  vous avez le droit d'introduire une réclamation auprès de la Commission Nationale de l'Informatique 
-                  et des Libertés (CNIL) : <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.cnil.fr/fr/plaintes</a>
+                  {"Si vous estimez que le traitement de vos données personnelles constitue une violation du RGPD, vous avez le droit d'introduire une réclamation auprès de la Commission Nationale de l'Informatique et des Libertés (CNIL) :"} <a href="https://www.cnil.fr/fr/plaintes" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">www.cnil.fr/fr/plaintes</a>
                 </p>
               </div>
 
@@ -157,9 +149,7 @@ export default function PolitiqueConfidentialitePage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">11. Mise à jour de la politique</h2>
                 <p className="text-muted-foreground leading-relaxed">
-                  La présente politique de confidentialité peut être modifiée à tout moment, notamment pour 
-                  s'adapter à toute évolution réglementaire, jurisprudentielle ou technique. La date de mise 
-                  à jour sera systématiquement indiquée.
+                  {"La présente politique de confidentialité peut être modifiée à tout moment, notamment pour s'adapter à toute évolution réglementaire, jurisprudentielle ou technique. La date de mise à jour sera systématiquement indiquée."}
                 </p>
                 <p className="text-muted-foreground leading-relaxed mt-4">
                   <strong>Dernière mise à jour :</strong> Janvier 2026

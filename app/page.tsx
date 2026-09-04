@@ -1,8 +1,7 @@
-import { Phone, MapPin, Clock, Wrench, Shield, Droplets } from "lucide-react"
+import { Phone, MapPin, Clock, Wrench, Shield, Droplets, ArrowUpRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Image from "next/image"
-import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 
@@ -10,7 +9,7 @@ export default function Home() {
   const services = [
     {
       icon: Wrench,
-      title: "Toiture neuve et rénovation",
+      title: "Toiture neuf et rénovation",
       description: "Installation et rénovation complète de toitures pour tous types de bâtiments",
     },
     {
@@ -54,17 +53,36 @@ export default function Home() {
           <div className="absolute inset-0 bg-[url('/images/hero-background.jpg')] bg-cover bg-center opacity-20" />
           <div className="relative container mx-auto px-4 py-20 md:py-32">
             <div className="max-w-4xl mx-auto text-center">
-              <div className="mb-8 flex justify-center">
-                <div className="bg-white p-6 rounded-2xl shadow-lg">
+              <div className="mb-8 flex flex-col md:flex-row items-stretch justify-center gap-6">
+                <div className="flex flex-1 md:max-w-sm items-center justify-center bg-white p-6 rounded-2xl shadow-lg">
                   <Image
                     src="/images/logo-lefevre.png"
                     alt="LEFEVRE Logo"
                     width={400}
                     height={300}
-                    className="w-full max-w-md h-auto"
+                    className="w-auto h-40 max-w-full object-contain"
                     priority
                   />
                 </div>
+                <a
+                  href="https://lbramonage.fr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Visiter le site L.B Ramonage / Fumisterie (nouvel onglet)"
+                  className="group flex flex-1 md:max-w-sm flex-col items-center justify-center bg-white p-6 rounded-2xl shadow-lg transition-transform hover:scale-[1.02]"
+                >
+                  <Image
+                    src="/images/logo-lb-ramonage.png"
+                    alt="Logo L.B Ramonage / Fumisterie"
+                    width={400}
+                    height={280}
+                    className="w-auto h-40 max-w-full object-contain"
+                  />
+                  <span className="mt-3 flex items-center justify-center gap-1.5 text-sm font-semibold text-primary group-hover:underline">
+                    Notre activité ramonage
+                    <ArrowUpRight className="h-4 w-4" />
+                  </span>
+                </a>
               </div>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-balance">
                 Votre expert en charpente, couverture et zinguerie
@@ -114,7 +132,7 @@ export default function Home() {
               <div className="text-center mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold mb-4">Contactez-nous</h2>
                 <p className="text-lg text-muted-foreground text-pretty">
-                  N'hésitez pas à nous contacter pour un devis gratuit ou pour toute question
+                  {"N'hésitez pas à nous contacter pour un devis gratuit ou pour toute question"}
                 </p>
               </div>
 
@@ -164,6 +182,38 @@ export default function Home() {
                   </CardContent>
                 </Card>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Notre autre activité - L.B Ramonage */}
+        <section className="py-16 md:py-24 bg-background">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Notre autre activité</h2>
+              <p className="text-lg text-muted-foreground mb-10 text-pretty">
+                Nous gérons également une entreprise spécialisée dans le ramonage et la fumisterie. Découvrez L.B
+                Ramonage / Fumisterie pour l&apos;entretien de vos conduits et cheminées.
+              </p>
+              <a
+                href="https://lbramonage.fr"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visiter le site L.B Ramonage / Fumisterie (nouvel onglet)"
+                className="group inline-flex flex-col items-center gap-6 rounded-2xl border-2 border-border bg-white p-8 shadow-sm transition-colors hover:border-primary"
+              >
+                <Image
+                  src="/images/logo-lb-ramonage.png"
+                  alt="Logo L.B Ramonage / Fumisterie"
+                  width={400}
+                  height={280}
+                  className="h-auto w-full max-w-xs"
+                />
+                <span className="inline-flex items-center gap-2 text-lg font-semibold text-primary group-hover:underline">
+                  Visiter le site L.B Ramonage
+                  <ArrowUpRight className="h-5 w-5" />
+                </span>
+              </a>
             </div>
           </div>
         </section>

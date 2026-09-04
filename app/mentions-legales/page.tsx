@@ -46,9 +46,8 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">2. Directeur de la publication</h2>
                 <div className="bg-muted rounded-lg p-6">
-                  <p className="mb-2"><strong>Nom :</strong> Guillaume CRISTINI </p>
-                  <p className="mb-0"><strong>Qualité :</strong> Architecte site web</p>
-                  <p className="mb-0"><strong>Site web :</strong> <a href="https:https://gcinformatik.fr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://gcinformatik.fr/</a></p>
+                  <p className="mb-2"><strong>Nom :</strong> Baptiste LEFEVRE</p>
+                  <p className="mb-0"><strong>Qualité :</strong> Président de la SAS LEFEVRE</p>
                 </div>
               </div>
 
@@ -56,9 +55,9 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">3. Hébergeur du site</h2>
                 <div className="bg-muted rounded-lg p-6">
-                  <p className="mb-2"><strong>Raison sociale :</strong> OVH </p>
-                  <p className="mb-2"><strong>Adresse :</strong> 32 RUE KELLERMANN 59100 ROUBAIX</p>
-                  <p className="mb-0"><strong>Site web :</strong> <a href="https://www.ovhcloud.com/fr/" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://www.ovhcloud.com/fr/</a></p>
+                  <p className="mb-2"><strong>Raison sociale :</strong> Vercel Inc.</p>
+                  <p className="mb-2"><strong>Adresse :</strong> 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis</p>
+                  <p className="mb-0"><strong>Site web :</strong> <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">https://vercel.com</a></p>
                 </div>
               </div>
 
@@ -66,17 +65,17 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">4. Activité de l'entreprise</h2>
                 <p className="text-muted-foreground mb-4">
-                  La société LEFEVRE exerce une activité artisanale réglementée dans le domaine des travaux de construction spécialisés, comprenant :
+                  {"La société LEFEVRE exerce une activité artisanale réglementée dans le domaine des travaux de construction spécialisés, comprenant :"}
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground space-y-2">
                   <li>Travaux de couverture et toiture en tous matériaux</li>
                   <li>Travaux de charpente</li>
                   <li>Travaux de zinguerie</li>
-                  <li>Travaux d'isolation</li>
-                  <li>Travaux d'étanchéité</li>
+                  <li>{"Travaux d'isolation"}</li>
+                  <li>{"Travaux d'étanchéité"}</li>
                 </ul>
                 <p className="text-muted-foreground mt-4">
-                  <strong>Convention collective applicable :</strong> Bâtiment ouvriers jusqu'à 10 Salariés (IDCC 1596)
+                  <strong>Convention collective applicable :</strong> {"Bâtiment ouvriers jusqu'à 10 Salariés (IDCC 1596)"}
                 </p>
               </div>
 
@@ -84,7 +83,7 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">5. Propriété intellectuelle</h2>
                 <p className="text-muted-foreground">
-                  L'ensemble du contenu de ce site (textes, images, logos, graphismes, icônes, etc.) est la propriété exclusive de la société LEFEVRE ou de ses partenaires. Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sauf autorisation écrite préalable de la société LEFEVRE.
+                  {"L'ensemble du contenu de ce site (textes, images, logos, graphismes, icônes, etc.) est la propriété exclusive de la société LEFEVRE ou de ses partenaires. Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite sauf autorisation écrite préalable de la société LEFEVRE."}
                 </p>
               </div>
 
@@ -92,10 +91,10 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">6. Limitation de responsabilité</h2>
                 <p className="text-muted-foreground mb-4">
-                  La société LEFEVRE s'efforce d'assurer au mieux l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, elle ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur ce site.
+                  {"La société LEFEVRE s'efforce d'assurer au mieux l'exactitude et la mise à jour des informations diffusées sur ce site. Toutefois, elle ne peut garantir l'exactitude, la précision ou l'exhaustivité des informations mises à disposition sur ce site."}
                 </p>
                 <p className="text-muted-foreground">
-                  En conséquence, la société LEFEVRE décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur ce site, ainsi que pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site.
+                  {"En conséquence, la société LEFEVRE décline toute responsabilité pour toute imprécision, inexactitude ou omission portant sur des informations disponibles sur ce site, ainsi que pour tous dommages résultant d'une intrusion frauduleuse d'un tiers ayant entraîné une modification des informations mises à disposition sur le site."}
                 </p>
               </div>
 
@@ -103,7 +102,7 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">7. Liens hypertextes</h2>
                 <p className="text-muted-foreground">
-                  Le site peut contenir des liens hypertextes vers d'autres sites. La société LEFEVRE n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu et aux éventuels collectes et traitements de données personnelles effectués par ces sites.
+                  {"Le site peut contenir des liens hypertextes vers d'autres sites. La société LEFEVRE n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu et aux éventuels collectes et traitements de données personnelles effectués par ces sites."}
                 </p>
               </div>
 
@@ -119,7 +118,7 @@ export default function MentionsLegalesPage() {
               <div className="mb-10">
                 <h2 className="text-2xl font-bold text-foreground mb-4">9. Contact</h2>
                 <p className="text-muted-foreground">
-                  Pour toute question relative aux présentes mentions légales ou pour exercer vos droits, vous pouvez nous contacter :
+                  {"Pour toute question relative aux présentes mentions légales ou pour exercer vos droits, vous pouvez nous contacter :"}
                 </p>
                 <ul className="list-disc list-inside text-muted-foreground mt-4 space-y-2">
                   <li>Par téléphone : 06 51 43 64 95</li>
