@@ -33,7 +33,7 @@ export default function ContactPage() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Contactez-nous</h1>
             <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto text-pretty">
-              Une question, un projet ? N'hésitez pas à nous contacter pour un devis gratuit
+              {"Une question, un projet ? N'hésitez pas à nous contacter pour un devis gratuit"}
             </p>
           </div>
         </section>
@@ -215,7 +215,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold mb-1">Zone d'intervention</h3>
                       <p className="text-muted-foreground text-pretty">
-                        Nous intervenons dans toute la région de Dortan et ses environs (Ain, Jura).
+                        {"Nous intervenons dans toute la région de Dortan et ses environs (Ain, Jura)."}
                       </p>
                     </div>
                   </CardContent>

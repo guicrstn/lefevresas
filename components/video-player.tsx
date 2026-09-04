@@ -1,7 +1,7 @@
 "use client"
 
 import { useRef, useEffect } from "react"
-import { Construction, Video } from "lucide-react"
+import { Video } from "lucide-react"
 
 interface VideoPlayerProps {
   title: string

@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react"
 import Image from "next/image"
-import { ChevronLeft, ChevronRight, Construction, Images } from "lucide-react"
+import { ChevronLeft, ChevronRight, Images } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 interface ImageCarouselProps {
@@ -114,7 +114,7 @@ export function ImageCarousel({
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-muted">
             <Images className="h-16 w-16 text-muted-foreground/50 mb-4" />
             <p className="text-muted-foreground font-medium">Galerie en cours de construction</p>
-            <p className="text-muted-foreground/70 text-sm mt-1">Plusieurs photos d'un même chantier</p>
+            <p className="text-muted-foreground/70 text-sm mt-1">{"Plusieurs photos d'un même chantier"}</p>
           </div>
         )}
       </div>

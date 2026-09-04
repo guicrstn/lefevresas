@@ -332,20 +332,6 @@ const beforeAfterProjects = [
     beforeImage: "/realisations/projet4-avant.jpg",
     afterImage: "/realisations/projet4-apres.jpg",
   },
-  {
-    id: 5,
-    title: "Habillage d'un toit",
-    description: "Rénovation du toit complet",
-    beforeImage: "/realisations/projet5-avant.jpg",
-    afterImage: "/realisations/projet5-apres.jpg",
-  },
-  {
-    id: 6,
-    title: "Réalisation d'une table",
-    description: "Création complète d'une table (avant/après)",
-    beforeImage: "/realisations/projet6-avant.jpeg",
-    afterImage: "/realisations/projet6-apres.jpeg",
-  },
 ]
 
 const videoProjects = [
@@ -353,13 +339,13 @@ const videoProjects = [
     id: 1,
     title: "Chantier charpente en cours",
     description: "Timelapse de la construction d'une charpente traditionnelle",
-    videoSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/video1-0AstXku566r5kp2cQTMNhsTw1HmxiW.mp4",
+    videoSrc: "/images/video1.mp4",
   },
   {
     id: 2,
-    title: "Fabrication maison ossature bois",
-    description: "Réalisation d’une maison à ossature bois avec pose de tuiles, illustrant notre savoir-faire en construction.",
-    videoSrc: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/video2-noBFXAzMPoeMHuwqPRB4ZB9EdE45tn.mp4",
+    title: "Pose de couverture",
+    description: "Démonstration de notre savoir-faire en pose de tuiles",
+    videoSrc: "/images/video2.mp4",
   },
 ]
 
@@ -412,7 +398,7 @@ export default function RealisationsPage() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 text-balance">Nos Réalisations</h1>
             <p className="text-lg text-primary-foreground/90 max-w-2xl mx-auto text-pretty">
-              Découvrez quelques-unes de nos réalisations en charpente, couverture et zinguerie
+              {"Découvrez quelques-unes de nos réalisations en charpente, couverture et zinguerie"}
             </p>
           </div>
         </section>
